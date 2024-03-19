@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="home.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="contact">Contact</a>
+        <a href="form.html">Form</a>
+    </div>
+    <h1>Winchmore School</h1>
+    <p>Learning To Realise Potential</p>
+    </div>
+    <img src="u:\winchmore final logo.jpg" class="logo">
+    <img src="u:\winchmore file" class="picture">
+    <img src="u:\winchmore file 2" class="picture2">
+    <img src="u:\winchmore file 3" class="picture3">
+</body>
+<p2>Winchmore School is an 11 to 18 mixed, community secondary school and sixth form in Winchmore Hill, Greater London, England. It was established in 1956 as a secondary modern school and has been a specialist arts college since 2004.  </p2>
+
+</html>
