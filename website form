@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input Form</title>
+<script>
+    function validateForm() {
+        const name = document.getElementById("fname").value;
+        if (name == "") {
+            alert("Please enter your name!");
+            return false; // Prevent form submission
+        }
+        // Add more validation checks as needed
+        return true;
+    }
+</script>
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="#event">Event</a>
+        <a class="active" href="form.html">Form</a>
+    
+    </div>
+    
+    <div>    <h4>Application form for winchmore school</h4> </div> 
+
+    <Form Name="form" action="success.html" onsubmit="return validateForm()" method="post">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name"><br><br>
+        <label for="lname">Surname:</label>
+        <input type="text" id="lname" name="surname" placeholder="Enter your surname" required><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="request">Your Request:</label>
+        <textarea id="request" name="request" rows="4" placeholder="Enter your request here"></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+     </body> 
+      </html>
