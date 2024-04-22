@@ -1,72 +1,103 @@
-<form action="action_page.php"> 
-    <head>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="topnav">
-            <a href="home.html">Home</a>
-            <a class="active"href="news.html">News</a>
-            <a href="#event">Event</a>
-            <a href="form.html">Form</a>
-        </div>
-    
-</form>
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winchmore School Newsletter</title>
-    <style>
-    </style>
 </head>
 
 <body>
-    <w1>Winchmore School Newsletter</w1>
-    <p>Hello Winchmore families and friends!</p>
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a class="active" href="news.html">News & Events</a>
+        <a href="contact.html">Contact</a>
+        <a href="form.html">Form</a>
+    </div>
 
-    <h6>Upcoming Events</h6>
-    <p>Don't miss these exciting events coming up at Winchmore:</p>
-    
-        <li>March 25 - Science Fair</li>
-        <li>April 2 - Spring Concert</li>
-        <li>April 10-15 - Spring Break (No Classes)</li>
-    </ul>
 
-    <h2>STUDENT ACHIEVEMENTS</h2>
-    <p>Congratulations to our students for their recent achievements:</p>
-    <ul>
-        <li>John Smith - Winner of the Math Olympiad</li>
-        <li>Sarah Johnson - Selected for All-State Choir</li>
-        <li>Michael Brown - First Place in the Art Competition</li>
-    </ul>
+    <div class="container">
+        <h1>Winchmore School Newsletter</h1>
+        <button class="accordion">Students Attendance and Recognition ></button>
+        <div class="panel">
+            <p>Every term a selection of the best work produced in lesson times is collected in and displayed throughout
+                the school as a way to value the hard work that our students put into their studies - the students are
+                also given achievement points in recognition of the time and effort they put in.</p>
+        </div>
 
-    <h2>REMINDERS</h2>
-    <p>A few friendly reminders for our Winchmore community:</p>
-    <ul>
-        <li>Please remember to return library books by March 31.</li>
-        <li>Parent-Teacher Conferences will be held on April 5-6. Sign up details will be sent soon.</li>
-    </ul>
+        <button class="accordion">Upcoming Assembly for all year groups 7-13</button>
+        <div class="panel">
+            <p>Winchmore school will hold an assembly for all year groups on the 24th April 2024, regarding all of their progress throughout the school year.</p>
+        </div>
 
-    <p>Thank you for being a part of the Winchmore family!</p>
-    <p>Sincerely,<br>Winchmore Secondary school and Sixth form</p>
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+
+        <!-- Newsletter Item 1 -->
+        <div class="newsletter-item">
+            <img src="u:\winchmore science" alt="News 1">
+            <h2>Winchmore School Wins Regional Science Fair</h2>
+            <p>Winchmore School's Science Club recently participated in the Regional Science Fair and came out on top!
+                The team's project on renewable energy solutions impressed the judges, earning them first
+                place.Winchmore School proudly announces its participation in the upcoming regional science fair,
+                showcasing the innovative spirit and intellectual prowess of its students. With a commitment to
+                nurturing curiosity and fostering a love for science, Winchmore students have been diligently crafting
+                projects that push the boundaries of knowledge and creativity. From exploring the intricacies of
+                biological ecosystems to unraveling the mysteries of physics and engineering, our students have
+                demonstrated exceptional dedication and ingenuity in their scientific endeavors. We invite the community
+                to join us in celebrating their achievements and to witness firsthand the remarkable contributions of
+                Winchmore School to the realm of scientific inquiry.</p>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    /* Toggle between adding and removing the "active" class,
+                    to highlight the button that controls the panel */
+                    this.classList.toggle("active");
+
+                    /* Toggle between hiding and showing the active panel */
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+                });
+            }
+        </script>
+
+        <!-- Newsletter Item 2 -->
+        <div class="newsletter-item">
+            <img src="u:\winchmore event" alt="News 2">
+            <h2>Upcoming Events at Winchmore School</h2>
+            <p>Mark your calendars for these exciting events happening at Winchmore School:</p>
+            <ul>
+                <li>March 15 - Career Fair for Year 11 Students</li>
+                <li>March 22 - Open House for Prospective Students and Parents</li>
+                <li>April 5 - Art Exhibition in the School Gallery</li>
+            </ul>
+        </div>
+
+
+        <!-- Newsletter Item 3 -->
+        <div class="newsletter-item">
+            <img src="u:\sixth form.jpg" alt="News 3">
+            <h2>Half Term Update: last day of term 21st May</h2>
+            <p>The final day of the may term will end on the 21st may 2024, which will be winchmores year 13s final day
+                in the secondary school. we are extremely proud of all students for their outstanding progress
+                throughout the school year and wish them all of the best in the future! I am very proud that our school
+                community has gone from strength to strength with our students making more progress than ever and
+                achieving higher standards than ever</p>
+        </div>
+    </div>
 </body>
 
+
 </html>
-<div class="container">
-    <h2>Winchmore School Latest News</h2>
-    <p3>Subscribe to our Winchmore School Newsletter</p3>
-</div>
-
-<div class="container" style="background-color:white">
-    <input type="text" placeholder="Name" name="name" required>
-    <input type="text" placeholder="Email address" name="mail" required>
-    <label>
-        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-    </label>
-</div>
-
-<div class="container">
-    <input type="submit" value="Subscribe">
-</div>
