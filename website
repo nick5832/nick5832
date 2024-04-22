@@ -1,39 +1,40 @@
 h1 {
-    color: midnightblue;
-    font-size: xx-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+  color: midnightblue;
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
 }
-h1 { 
-    .callout-item {
-        max-width: 800px;
-        margin: auto;
-        text-align: right;
-    }
+
+h1 {
+  .callout-item {
+    max-width: 800px;
+    margin: auto;
+    text-align: right;
+  }
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: midnightblue;
-    font-size: xx-large;
-    text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: midnightblue;
+  font-size: xx-large;
+  text-align: center;
 }
 
 body {
-    background: white;
+  background: white;
 }
 
 img.logo {
-    position: relative;
-    left: 0px;
-    height: 200px;
-    width: 200px;
+  position: relative;
+  left: 0px;
+  height: 200px;
+  width: 200px;
 
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color:navy;
+  background-color: navy;
   overflow: hidden;
 }
 
@@ -50,69 +51,551 @@ img.logo {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
-  color:white;
+  color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color:blue;
+  background-color: blue;
   color: white;
 }
-  
-form{
+
+form {
   color: navy;
   text-align: center;
   font-size: 25px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-  }  
-  /*winchmore school home page */
-  img.picture {
-    position:relative;
-    left:0px;
-    height:200px;
-    width:400px;
-  }
-  img.picture2 {
-    position:relative;
-    left:0px;
-    height:200px;
-    width:300px;
-  }
-  img.picture3 {
-    position:relative;
-    left:0px;
-    height:200px;
-    width:400px;
-  }
-  /*winchmore latest news design*/
-  h2{
-    text-align: center;
-    font-size: xx-large;
-  }
-  /*winchmore school newsletter design*/
-  p3{
-    text-align: left;
-    font-size: x-large;
-  }
-  /*user information form design*/
-h4{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*winchmore latest news design*/
+h2 {
+  text-align: center;
+  font-size: xx-large;
+}
+
+/*winchmore school newsletter design*/
+p3 {
+  text-align: left;
+  font-size: x-large;
+}
+
+/*user information form design*/
+h4 {
   text-align: center;
   font-size: xx-large;
   color: navy;
 }
 
-p2{
-  font-size:larger ;
+p2 {
+  font-size: larger;
 }
 
 
-w1{
-  color:black;
+w1 {
+  color: black;
   text-align: center;
   font-size: xx-large;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-li{
+
+li {
   text-align: center;
   font: bolder;
+}
+
+style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #007bff;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.newsletter-item {
+  margin-bottom: 40px;
+}
+
+.newsletter-item h2 {
+  margin-top: 0;
+}
+
+.newsletter-item img {
+  max-width: 50%;
+  border-radius: 8px;
+}
+
+.btn-read-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-read-more:hover {
+  background-color: #0056b3;
+}
+
+
+
+/*contact page customisation*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  height: 120px;
+}
+
+.btn-submit {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+/*form customisation*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007bff;
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-submit {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+
+
+/*homepage customise headteachers message*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: navy;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.signature {
+  margin-top: 30px;
+}
+
+.signature p {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+/*home page customisation*/
+body {
+  border-top: none;
+  font-family: Arial, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  background-color: #f8f9fa;
+}
+
+.header {
+  border-top: none;
+  background-color: navy;
+  padding: 10px 0;
+}
+
+.topnav {
+  overflow: hidden;
+  text-align: center;
+}
+
+.topnav a {
+  display: inline-block;
+  padding: 10px 20ox;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.topnav a:hover {
+  background-color: #004080;
+}
+
+.hero {
+  background-image: url('hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.btn-learn-more {
+  display: inline-block;
+  background-color: navy;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-learn-more:hover {
+  background-color: navy;
+}
+
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #0056b3;
+}
+
+.section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.section-dark {
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: #0056b3;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/*winchmore school logo design*/
+.winchmorelogo {
+  width: 175px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  border-radius: 50%;
+
+}
+
+.logo {
+  width: 175px;
+  height: auto;
+  position: absolute;
+  top: 2px;
+  right: 110px;
+  border-radius: 50%;
+
+}
+
+body, html {
+  height: 100%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 650px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color:white;
+  color: #444;
+  cursor:pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color:white;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color:white;
+  display: none;
+  overflow: hidden;
 }
