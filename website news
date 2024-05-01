@@ -20,7 +20,7 @@
 
     <div class="container">
         <h1>Winchmore School Newsletter</h1>
-        <button class="accordion">Students Attendance and Recognition ></button>
+        <button class="accordion">Students Attendance and Recognition </button>
         <div class="panel">
             <p>Every term a selection of the best work produced in lesson times is collected in and displayed throughout
                 the school as a way to value the hard work that our students put into their studies - the students are
@@ -32,9 +32,9 @@
             <p>Winchmore school will hold an assembly for all year groups on the 24th April 2024, regarding all of their progress throughout the school year.</p>
         </div>
 
-        <button class="accordion">Section 3</button>
+        <button class="accordion">year 13 prom July 3rd</button>
         <div class="panel">
-            <p>Lorem ipsum...</p>
+            <p>winchmore school will hold a prom for the year 13 as their final fairwell. it will be held in a hall located in enfield. more information will be released later in the month.</p>
         </div>
 
         <!-- Newsletter Item 1 -->
